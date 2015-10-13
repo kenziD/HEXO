@@ -34,7 +34,7 @@
   font-weight: bold
   color: color-default
   line-height: line-height-title
-  transition: color 0.2s
+  transition: color .2s
   a&:hover
     color: color-link
 
@@ -78,8 +78,11 @@
     border-bottom: 1px solid color-border
     padding: 10px 0
   blockquote
+    padding: 0 15px
+    color: #777
+    border-left: 4px solid #ddd
     font-family: font-serif
-    font-size: 1.2em
+    font-size: 1.0em
     margin: line-height 20px
     text-align: left
     footer
@@ -135,6 +138,8 @@
     color: #fff
     text-decoration: none
     text-shadow: 0 1px darken(color-link, 20%)
+    //font transition
+    transition:color .3s
 
 .article-footer
   clearfix()

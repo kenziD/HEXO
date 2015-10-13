@@ -4,9 +4,9 @@
 
 # Site
 title: kenziD
-subtitle:
+subtitle: A Girl Who Love Programming
 description:
-author: John Doe
+author: KenziD
 language:
 timezone:
 
@@ -67,7 +67,7 @@ theme: landscape
 
 # Deployment
 ## Docs: http://hexo.io/docs/deployment.html
-deploy: 
+deploy:
   type: git
   repository: git@github.com:kenziD/kenziD.github.io.git
   branch: master
